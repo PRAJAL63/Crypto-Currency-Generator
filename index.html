@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cryptocurrency Price Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app app__container">
+      <section class="app__form-section">
+        <form id="form" class="form">
+          <div class="form__field">
+            <label for="currency" class="form__label">Choose your currency</label>
+            <select id="currency" name="currency" class="form__select">
+              <option value="" disabled selected>- Select -</option>
+              <option value="AUD">Australian Dollar</option>
+              <option value="BRL">Brazilian Real</option>
+              <option value="CLP">Chilean Peso</option>
+              <option value="EUR">Euros</option>
+              <option value="GBP">Pounds</option>
+              <option value="MXN">Mexican Peso</option>
+              <option value="ARS">Argentine Peso</option>
+              <option value="USD">US Dollar</option>
+              <option value="UYU">Uruguayan Peso</option>
+            </select>
+          </div>
+
+          <div class="form__field">
+            <label for="cryptocurrency" class="form__label">Choose your cryptocurrency</label>
+            <select id="cryptocurrency" name="cryptocurrency" class="form__select">
+              <option value="" disabled selected>- Select -</option>
+            </select>
+          </div>
+
+          <div class="form__button">
+            <button id="button-submit" type="submit" class="button">Get Quote</button>
+          </div>
+        </form>
+      </section>
+
+      <section class="app__data-section">
+        <div id="data-container" class="app__data-flex"></div>
+      </section>
+    </div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
