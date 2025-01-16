@@ -353,7 +353,7 @@
   /* variables */
 
 :root {
-    --main-font: "Poppins", sans-serif;
+    --main-font: "Poppins", Poppins;
     --background-color: #3c3860;
     --main--color: #db95e7;
     --white: #e2e2e2;
