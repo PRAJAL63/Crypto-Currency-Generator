@@ -361,7 +361,14 @@
     --blue: #a27c22;
     --red: #a80000;
   }
-  
+  .candy-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at top, #a17807, #ffd1dc, #137275);
+  }
   /* global styles */
   
   html {
