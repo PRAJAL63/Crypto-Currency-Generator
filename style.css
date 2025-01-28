@@ -532,7 +532,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background: #fff;
+    background: rgb(83, 46, 46);
     color: #fff;
     animation: animloader 2s linear infinite alternate;
   }
